@@ -1,0 +1,21 @@
+.icons-class{
+    grid-template-columns: 10rem 5fr 10rem;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+}
+.icons-class ul{
+    height: 5rem;
+    display: flex;
+    grid-column: 2/3;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-class li{
+    padding: 10px 10px;
+    color: black;
+    font-size: xx-large;
+}

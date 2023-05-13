@@ -1,0 +1,89 @@
+/* .login {
+    width: 90%;
+    max-width: 40rem;
+    padding: 1rem;
+  }
+  .btn{
+    margin-left: 44%;
+  } */
+ 
+  /* .control div label{
+    text-align: center;
+  }
+  .control input {
+    display: block;
+  } */
+
+  /* .control div{
+    text-align: center;
+    justify-content: center;
+  } */
+
+  /* .control div div{
+    display: flex;
+    margin-top: 0.5rem;
+  }
+   */
+  /* .control div label {
+    font-weight: bold;
+    flex: 1;
+    color: #464646;
+    margin-bottom: 0.5rem;
+  } */
+/*   
+  .control input {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+   */
+  /* .control TextField:focus {
+    outline: none;
+    border-color: #4f005f;
+    background: #f6dbfc;
+  }
+   */
+
+  .invalid{
+    border-color: red;
+    background: #fbdada;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .control {
+      align-items: center;
+      
+    }
+  
+  }
+  .icon {
+    font-size: medium;
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  .heading{
+    margin-left: 37% !important;
+    justify-content: space-around;
+    background: -webkit-linear-gradient(#eee,rgba(69,57,248));  
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text ;
+
+    
+  }
+.error{
+  text-align: inherit;
+  color: red;
+  width: '50ch';
+}
+
+

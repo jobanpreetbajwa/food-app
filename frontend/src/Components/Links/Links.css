@@ -1,0 +1,36 @@
+.li{
+    color: black;
+    list-style: none;
+}
+.nav-bar{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar:hover{
+    color:red;
+}
+.active{
+color: aquamarine;
+border-bottom: 4px solid #b2cfd3;
+}
+.items-nav{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 9rem 10fr 11.5rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.items-nav ul {
+    height: 5rem;
+    display: flex;
+    grid-column: 2/3;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.items-nav ul li {
+    font-size: 1.8rem;
+    padding: 10px 10px;
+}
